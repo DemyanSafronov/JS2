@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+var Repeat;
+do {
+var name=window.prompt("Введите сюда своё имя","Введите имя");
+document.write("Ваше имя "+name+". Очень рады знакомству с Вами!!!");
+var age=window.prompt("Сколько Вам лет, если не секрет?","35 лет");
+document.write(" Через десять лет Вам исполнится "+(+age+10)+" лет!");
+Repeat=confirm("Начать заново?");
+document.write("<br>"); 
+} while (Repeat!=false);
+</script>
+</body>
+</html>
